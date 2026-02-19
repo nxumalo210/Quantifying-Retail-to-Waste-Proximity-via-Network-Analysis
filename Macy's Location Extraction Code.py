@@ -1,4 +1,4 @@
-# this code is going to be extracting the city name and address of all Macy's store locations across the state of NY
+# this code is going to be extracting the city name and address of all Retail Location store locations across the state of NY
 #
 # import openpyxl
 # from openpyxl import load_workbook
@@ -80,7 +80,7 @@ from openpyxl import load_workbook  # Needed for the ExcelWriter engine
 
 def store_collector():
     """
-    Navigates to a Macy's store page, scrapes store name and address,
+    Navigates to a Retail Location store page, scrapes store name and address,
     and returns a list of dictionaries containing the data.
     """
     # --- Driver Setup ---
